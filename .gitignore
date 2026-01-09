@@ -1,1 +1,28 @@
+# macOS
 .DS_Store
+
+# Credentials and secrets
+.env
+.env.*
+.env.local
+.env.*.local
+*.key
+*.pem
+*secret*
+*secrets*
+credentials.json
+config.local.*
+*.p12
+*.pfx
+
+# API keys and tokens
+*api_key*
+*apikey*
+*token*
+
+# SSH keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.pub
